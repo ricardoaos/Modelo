@@ -612,3 +612,11 @@ C:\Development\GitHub\Modelo\FiscalPrime.Backend.API\obj\Debug\netcoreapp3.1\Fis
 C:\Development\GitHub\Modelo\FiscalPrime.Backend.API\obj\Debug\netcoreapp3.1\FiscalPrime.Backend.API.csproj.CopyComplete
 C:\Development\GitHub\Modelo\FiscalPrime.Backend.API\obj\Debug\netcoreapp3.1\FiscalPrime.Backend.API.dll
 C:\Development\GitHub\Modelo\FiscalPrime.Backend.API\obj\Debug\netcoreapp3.1\FiscalPrime.Backend.API.pdb
+C:\Users\ricardo.souto\Source\Repos\Modelo\FiscalPrime.Backend.API\obj\Debug\netcoreapp3.1\FiscalPrime.Backend.API.csprojAssemblyReference.cache
+C:\Users\ricardo.souto\Source\Repos\Modelo\FiscalPrime.Backend.API\obj\Debug\netcoreapp3.1\FiscalPrime.Backend.API.AssemblyInfoInputs.cache
+C:\Users\ricardo.souto\Source\Repos\Modelo\FiscalPrime.Backend.API\obj\Debug\netcoreapp3.1\FiscalPrime.Backend.API.AssemblyInfo.cs
+C:\Users\ricardo.souto\Source\Repos\Modelo\FiscalPrime.Backend.API\obj\Debug\netcoreapp3.1\FiscalPrime.Backend.API.csproj.CoreCompileInputs.cache
+C:\Users\ricardo.souto\Source\Repos\Modelo\FiscalPrime.Backend.API\obj\Debug\netcoreapp3.1\FiscalPrime.Backend.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ricardo.souto\Source\Repos\Modelo\FiscalPrime.Backend.API\obj\Debug\netcoreapp3.1\FiscalPrime.Backend.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ricardo.souto\Source\Repos\Modelo\FiscalPrime.Backend.API\obj\Debug\netcoreapp3.1\FiscalPrime.Backend.API.RazorAssemblyInfo.cache
+C:\Users\ricardo.souto\Source\Repos\Modelo\FiscalPrime.Backend.API\obj\Debug\netcoreapp3.1\FiscalPrime.Backend.API.RazorAssemblyInfo.cs

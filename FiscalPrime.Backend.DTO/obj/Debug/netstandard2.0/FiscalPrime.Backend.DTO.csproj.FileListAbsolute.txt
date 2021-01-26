@@ -32,3 +32,15 @@ C:\Development\GitHub\Modelo\FiscalPrime.Backend.DTO\obj\Debug\netstandard2.0\Fi
 C:\Development\GitHub\Modelo\FiscalPrime.Backend.DTO\obj\Debug\netstandard2.0\FiscalPrime.Backend.DTO.csproj.CopyComplete
 C:\Development\GitHub\Modelo\FiscalPrime.Backend.DTO\obj\Debug\netstandard2.0\FiscalPrime.Backend.DTO.dll
 C:\Development\GitHub\Modelo\FiscalPrime.Backend.DTO\obj\Debug\netstandard2.0\FiscalPrime.Backend.DTO.pdb
+C:\Users\ricardo.souto\Source\Repos\Modelo\FiscalPrime.Backend.DTO\bin\Debug\netstandard2.0\FiscalPrime.Backend.DTO.deps.json
+C:\Users\ricardo.souto\Source\Repos\Modelo\FiscalPrime.Backend.DTO\bin\Debug\netstandard2.0\FiscalPrime.Backend.DTO.dll
+C:\Users\ricardo.souto\Source\Repos\Modelo\FiscalPrime.Backend.DTO\bin\Debug\netstandard2.0\FiscalPrime.Backend.DTO.pdb
+C:\Users\ricardo.souto\Source\Repos\Modelo\FiscalPrime.Backend.DTO\bin\Debug\netstandard2.0\FiscalPrime.Backend.Shared.dll
+C:\Users\ricardo.souto\Source\Repos\Modelo\FiscalPrime.Backend.DTO\bin\Debug\netstandard2.0\FiscalPrime.Backend.Shared.pdb
+C:\Users\ricardo.souto\Source\Repos\Modelo\FiscalPrime.Backend.DTO\obj\Debug\netstandard2.0\FiscalPrime.Backend.DTO.csprojAssemblyReference.cache
+C:\Users\ricardo.souto\Source\Repos\Modelo\FiscalPrime.Backend.DTO\obj\Debug\netstandard2.0\FiscalPrime.Backend.DTO.AssemblyInfoInputs.cache
+C:\Users\ricardo.souto\Source\Repos\Modelo\FiscalPrime.Backend.DTO\obj\Debug\netstandard2.0\FiscalPrime.Backend.DTO.AssemblyInfo.cs
+C:\Users\ricardo.souto\Source\Repos\Modelo\FiscalPrime.Backend.DTO\obj\Debug\netstandard2.0\FiscalPrime.Backend.DTO.csproj.CoreCompileInputs.cache
+C:\Users\ricardo.souto\Source\Repos\Modelo\FiscalPrime.Backend.DTO\obj\Debug\netstandard2.0\FiscalPrime.Backend.DTO.csproj.CopyComplete
+C:\Users\ricardo.souto\Source\Repos\Modelo\FiscalPrime.Backend.DTO\obj\Debug\netstandard2.0\FiscalPrime.Backend.DTO.dll
+C:\Users\ricardo.souto\Source\Repos\Modelo\FiscalPrime.Backend.DTO\obj\Debug\netstandard2.0\FiscalPrime.Backend.DTO.pdb
