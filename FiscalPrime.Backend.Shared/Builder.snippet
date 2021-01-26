@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippet Format="1.0.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <Header>
+    <Title>Builder With</Title>
+    <Author>Eduardo(eduardo.aparecido@totvs.com.br)</Author>
+    <Shortcut>builderwithvalue</Shortcut>
+    <Description>Criação do Método With do Builder de Dominio</Description>
+    <SnippetTypes>
+      <SnippetType>SurroundsWith</SnippetType>
+      <SnippetType>Expansion</SnippetType>
+    </SnippetTypes>
+  </Header>
+  <Snippet>
+    <Declarations>
+      <Literal>
+        <ID>propriedade</ID>
+        <ToolTip>Propriedade da Classe</ToolTip>
+        <Default>value</Default>
+      </Literal>
+      <Literal>
+        <ID>tipoDado</ID>
+        <ToolTip>Tipo de Dado</ToolTip>
+        <Default>value</Default>
+      </Literal>
+      <Literal>
+        <ID>variavelLocal</ID>
+        <ToolTip>Nome da Variavel Local</ToolTip>
+        <Default>value</Default>
+      </Literal>
+    </Declarations>
+    <Code Language="CSharp">
+      <![CDATA[ public Builder with$propriedade$($tipoDado$ $variavelLocal$)
+            {
+                Instance.$propriedade$ = $variavelLocal$;
+                return this;
+            } ]]>      
+    </Code>
+  </Snippet>
+</CodeSnippet>

@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FastReport.OpenSource.Web" Version="2021.1.0" />
+    <PackageReference Include="Tnf.Dto" Version="3.2.0.31002" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FiscalPrime.Backend.Shared\FiscalPrime.Backend.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,8 @@
+C:\Users\thiago.arnoni\Desktop\Estudos\TNF\FiscalPrime_backend\FiscalPrime.Backend\FiscalPrime.Backend.Http\bin\Debug\netcoreapp3.1\FiscalPrime.Backend.Http.deps.json
+C:\Users\thiago.arnoni\Desktop\Estudos\TNF\FiscalPrime_backend\FiscalPrime.Backend\FiscalPrime.Backend.Http\bin\Debug\netcoreapp3.1\FiscalPrime.Backend.Http.dll
+C:\Users\thiago.arnoni\Desktop\Estudos\TNF\FiscalPrime_backend\FiscalPrime.Backend\FiscalPrime.Backend.Http\bin\Debug\netcoreapp3.1\FiscalPrime.Backend.Http.pdb
+C:\Users\thiago.arnoni\Desktop\Estudos\TNF\FiscalPrime_backend\FiscalPrime.Backend\FiscalPrime.Backend.Http\obj\Debug\netcoreapp3.1\FiscalPrime.Backend.Http.AssemblyInfoInputs.cache
+C:\Users\thiago.arnoni\Desktop\Estudos\TNF\FiscalPrime_backend\FiscalPrime.Backend\FiscalPrime.Backend.Http\obj\Debug\netcoreapp3.1\FiscalPrime.Backend.Http.AssemblyInfo.cs
+C:\Users\thiago.arnoni\Desktop\Estudos\TNF\FiscalPrime_backend\FiscalPrime.Backend\FiscalPrime.Backend.Http\obj\Debug\netcoreapp3.1\FiscalPrime.Backend.Http.dll
+C:\Users\thiago.arnoni\Desktop\Estudos\TNF\FiscalPrime_backend\FiscalPrime.Backend\FiscalPrime.Backend.Http\obj\Debug\netcoreapp3.1\FiscalPrime.Backend.Http.pdb
+C:\Users\thiago.arnoni\Desktop\Estudos\TNF\FiscalPrime_backend\FiscalPrime.Backend\FiscalPrime.Backend.Http\obj\Debug\netcoreapp3.1\FiscalPrime.Backend.Http.csprojAssemblyReference.cache

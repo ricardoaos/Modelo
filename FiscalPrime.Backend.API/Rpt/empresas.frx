@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="12/17/2020 09:51:10" ReportInfo.Modified="12/18/2020 09:43:36" ReportInfo.CreatorVersion="2020.4.0.0">
+  <Dictionary>
+    <PostgresDataConnection Name="Connection" ConnectionString="rijcmlqnIkYLNFyGJ61aFfSGBilUqHFi4WII/Rk45yNwVaFTLZ/y3t64YVccK7cY20LIoI0eVPg+Xk9L8CrbAsptkLuJlPpniP7I1nc+dvfEsKvlU4vnBVFyt09pT+W+dIssDxMs6sVrhj/eNwRm0IMnBTpdA==">
+      <TableDataSource Name="empresa" DataType="System.Int32" PropName="public_empresa1" Enabled="true" TableName="empresa">
+        <Column Name="Id" DataType="System.Int64"/>
+        <Column Name="NumeroCNPJCPF" DataType="System.String"/>
+        <Column Name="Nome" DataType="System.String"/>
+        <Column Name="NomeFantasia" DataType="System.String"/>
+        <Column Name="Endereco" DataType="System.String"/>
+        <Column Name="Numero" DataType="System.String"/>
+        <Column Name="Complemento" DataType="System.String"/>
+        <Column Name="Bairro" DataType="System.String"/>
+        <Column Name="CodigoMunicipioIBGE" DataType="System.Int32"/>
+        <Column Name="CodigoUF" DataType="System.Int16"/>
+        <Column Name="Cep" DataType="System.String"/>
+        <Column Name="CodigoPais" DataType="System.Int16"/>
+        <Column Name="NomePais" DataType="System.String"/>
+        <Column Name="Telefone" DataType="System.String"/>
+        <Column Name="InscricaoEstadual" DataType="System.String"/>
+        <Column Name="InscricaoEstadualST" DataType="System.String"/>
+        <Column Name="InscricaoMunicipal" DataType="System.String"/>
+        <Column Name="CodigoCNAE" DataType="System.String"/>
+        <Column Name="CodigoCRT" DataType="System.Int16"/>
+        <Column Name="CodigoSuframa" DataType="System.String"/>
+        <Column Name="Ativo" DataType="System.Boolean" BindableControl="CheckBox"/>
+        <Column Name="DataInclusao" DataType="System.DateTime"/>
+        <Column Name="DataUltimaAlteracao" DataType="System.DateTime"/>
+      </TableDataSource>
+    </PostgresDataConnection>
+    <Parameter Name="NumeroCnpjCpfFilter" DataType="System.String"/>
+  </Dictionary>
+  <ReportPage Name="Page1" Watermark.Font="Arial, 60pt">
+    <ReportTitleBand Name="ReportTitle1" Width="718.2" Height="37.8">
+      <TextObject Name="txtTitle" Left="245.7" Top="9.45" Width="160.65" Height="18.9" Text="Relatório de Empresas" Font="Arial, 10pt"/>
+    </ReportTitleBand>
+    <PageHeaderBand Name="PageHeader1" Top="41.8" Width="718.2" Height="28.35">
+      <TextObject Name="Text2" Left="18.9" Width="151.2" Height="18.9" Text="NumeroCNPJCPF" Font="Arial, 10pt"/>
+      <TextObject Name="Text4" Left="264.6" Width="94.5" Height="18.9" Text="Nome" Font="Arial, 10pt"/>
+    </PageHeaderBand>
+    <DataBand Name="Data1" Top="74.15" Width="718.2" Height="28.35" CanGrow="true" DataSource="empresa" Filter="IIf([NumeroCnpjCpfFilter] != &quot;&quot;, [empresa.NumeroCNPJCPF].Contains([NumeroCnpjCpfFilter]), [empresa.NumeroCNPJCPF] != &quot;&quot;)">
+      <TextObject Name="Text1" Left="18.9" Width="198.45" Height="18.9" CanGrow="true" CanBreak="false" Text="[empresa.NumeroCNPJCPF]" Font="Arial, 10pt"/>
+      <TextObject Name="Text3" Left="264.6" Width="170.1" Height="18.9" Text="[empresa.Nome]" Font="Arial, 10pt"/>
+    </DataBand>
+    <PageFooterBand Name="PageFooter1" Top="106.5" Width="718.2" Height="18.9"/>
+  </ReportPage>
+</Report>

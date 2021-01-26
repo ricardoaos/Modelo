@@ -1,0 +1,22 @@
+﻿{
+  "culture": "pt-BR",
+  "texts": {
+    "NumeroCNPJCPFCannotNullOrZero": "CPF/CNPJ não pode ser nulo ou zero",
+    "NomeCannotBeEmpty": "Nome não pode ser vazio",
+    "NomeFantasiaCannotBeEmpty": "Nome fantasia não pode ser vazio",
+    "EnderecoCannotBeEmpty": "Endereço não pode ser vazio",
+    "NumeroCannotBeEmpty": "Número não pode ser vazio",
+    "BairroCannotBeEmpty": "Bairro não pode ser vazio",
+    "CodigoMunicipioIBGECannotNullOrZero": "Código do Municipio não pode ser nulo ou zero",
+    "CodigoUFCannotNullOrZero": "Código da UF não pode ser nulo ou zero",
+    "CepCannotBeEmpty": "CEP não pode ser vazio",
+    "CodigoPaisCannotNullOrZero": "Código do País não pode ser nulo ou zero",
+    "NomePaisCannotBeEmpty": "Nome do País não pode ser vazio",
+    "TelefoneCannotBeEmpty": "Telefone não pode ser vazio",
+    "AtivoCannotBeNull": "Ativo não pode ser nulo",
+    "DataInclusaoCannotBeNull": "Data de Inclusão não pode ser nulo",
+    "DataUltimaAlteracaoCannotBeNull": "Data Ultima Alteração não pode ser nulo",
+
+    "DomainServiceOnInsertNullBuilderError": "Builder de produto ao atualizar não pode ser nulo."
+  }
+}

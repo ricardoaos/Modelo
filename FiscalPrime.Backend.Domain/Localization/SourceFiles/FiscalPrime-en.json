@@ -1,0 +1,23 @@
+{
+  "culture": "en",
+  "texts": {
+    "NumeroCNPJCPFCannotNullOrZero": "NumeroCNPJCPFCannotNullOrZero",
+    "NomeCannotBeEmpty": "NomeCannotBeEmpty",
+    "NomeFantasiaCannotBeEmpty": "NomeFantasiaCannotBeEmpty",
+    "EnderecoCannotBeEmpty": "EnderecoCannotBeEmpty",
+    "NumeroCannotBeEmpty": "NumeroCannotBeEmpty",
+    "BairroCannotBeEmpty": "BairroCannotBeEmpty",
+    "CodigoMunicipioIBGECannotNullOrZero": "CodigoMunicipioIBGECannotNullOrZero",
+    "CodigoUFCannotNullOrZero": "CodigoUFCannotNullOrZero",
+    "CepCannotBeEmpty": "CepCannotBeEmpty",
+    "CodigoPaisCannotNullOrZero": "CodigoPaisCannotNullOrZero",
+    "NomePaisCannotBeEmpty": "NomePaisCannotBeEmpty",
+    "TelefoneCannotBeEmpty": "TelefoneCannotBeEmpty",
+    "AtivoCannotBeNull": "AtivoCannotBeNull",
+    "DataInclusaoCannotBeNull": "DataInclusaoCannotBeNull",
+    "DataUltimaAlteracaoCannotBeNull": "DataUltimaAlteracaoCannotBeNull",
+
+    "DomainServiceOnInsertNullBuilderError": "Domain Service On Update Null Builder Error"
+
+  }
+}

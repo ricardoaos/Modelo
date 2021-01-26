@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>849e9285-ae4f-4e5b-aaee-dda2c6bce21b</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Hangfire" Version="1.7.18" />
+    <PackageReference Include="Hangfire.PostgreSql" Version="1.8.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.9" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+    <PackageReference Include="Tnf.AspNetCore" Version="3.2.0.31002" />
+    <PackageReference Include="Tnf.AspNetCore.Security" Version="3.2.0.31002" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FiscalPrime.Backend.Application\FiscalPrime.Backend.Application.csproj" />
+    <ProjectReference Include="..\FiscalPrime.Backend.Domain\FiscalPrime.Backend.Domain.csproj" />
+    <ProjectReference Include="..\FiscalPrime.Backend.Http\FiscalPrime.Backend.Http.csproj" />
+    <ProjectReference Include="..\FiscalPrime.Backend.Infra.Data.PostgreSQL\FiscalPrime.Backend.Infra.Data.PostgreSQL.csproj" />
+    <ProjectReference Include="..\FiscalPrime.Backend.Shared\FiscalPrime.Backend.Shared.csproj" />
+  </ItemGroup>
+
+
+</Project>

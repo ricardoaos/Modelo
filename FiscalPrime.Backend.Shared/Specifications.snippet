@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippet Format="1.0.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <Header>
+    <Title>Create Builder</Title>
+    <Author>Eduardo Oliveira</Author>
+    <Shortcut>createspecifications</Shortcut>
+    <Description>Criação da Specification</Description>
+    <SnippetTypes>
+      <SnippetType>SurroundsWith</SnippetType>
+      <SnippetType>Expansion</SnippetType>
+    </SnippetTypes>
+  </Header>
+  <Snippet>
+    <Declarations>
+      <Literal>
+        <ID>validationenum</ID>
+        <Default>validationenum</Default>
+      </Literal>
+      <Literal>
+        <ID>entityname</ID>
+        <Default>entityname</Default>
+      </Literal>
+      <Literal>
+        <ID>expression</ID>
+        <Default>expression</Default>
+      </Literal>      
+    </Declarations>
+    <Code Language="CSharp">
+      <![CDATA[
+       public class $validationenum$Specification : Specification<$entityname$>
+    {
+        public override string LocalizationSource { get; protected set; } = Constants.LocalizationSourceName;
+        public override Enum LocalizationKey { get; protected set; } =  $entityname$.Validations.$validationenum$;
+
+        public override Expression<Func<$entityname$, bool>> ToExpression()
+        {
+            return (p) => $expression$;
+        }
+    }
+             ]]>
+    </Code>
+  </Snippet>
+</CodeSnippet>

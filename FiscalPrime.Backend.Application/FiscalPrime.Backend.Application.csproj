@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FiscalPrime.Backend.Domain\FiscalPrime.Backend.Domain.csproj" />
+    <ProjectReference Include="..\FiscalPrime.Backend.Infra.Data\FiscalPrime.Backend.Infra.Data.csproj" />
+  </ItemGroup>
+
+</Project>

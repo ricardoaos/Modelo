@@ -1,0 +1,173 @@
+2020-11-30 17:31:20.962 +00:00 [DBUG] Microsoft.Extensions.Hosting.Internal.Host Hosting starting
+2020-11-30 17:31:21.007 +00:00 [WARN] Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository Storing keys in a directory '"/root/.aspnet/DataProtection-Keys"' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+2020-11-30 17:31:21.007 +00:00 [INFO] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager User profile is available. Using '"/root/.aspnet/DataProtection-Keys"' as key repository; keys will not be encrypted at rest.
+2020-11-30 17:31:21.042 +00:00 [DBUG] Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver Repository contains no viable default key. Caller should generate a key with immediate activation.
+2020-11-30 17:31:21.043 +00:00 [DBUG] Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider Policy resolution states that a new key should be added to the key ring.
+2020-11-30 17:31:21.054 +00:00 [INFO] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager Creating key {9af3f1b2-4ee6-481f-9845-5362155b46bb} with creation date 2020-11-30 17:31:21Z, activation date 2020-11-30 17:31:21Z, and expiration date 2021-02-28 17:31:21Z.
+2020-11-30 17:31:21.060 +00:00 [DBUG] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager Descriptor deserializer type for key {9af3f1b2-4ee6-481f-9845-5362155b46bb} is '"Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.10.0, Culture=neutral, PublicKeyToken=adb9793829ddae60"'.
+2020-11-30 17:31:21.076 +00:00 [DBUG] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager No key escrow sink found. Not writing key {9af3f1b2-4ee6-481f-9845-5362155b46bb} to escrow.
+2020-11-30 17:31:21.076 +00:00 [WARN] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager No XML encryptor configured. Key {9af3f1b2-4ee6-481f-9845-5362155b46bb} may be persisted to storage in unencrypted form.
+2020-11-30 17:31:21.083 +00:00 [INFO] Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository Writing data to file '"/root/.aspnet/DataProtection-Keys/key-9af3f1b2-4ee6-481f-9845-5362155b46bb.xml"'.
+2020-11-30 17:31:21.084 +00:00 [DBUG] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager Key cache expiration token triggered by '"CreateNewKey"' operation.
+2020-11-30 17:31:21.086 +00:00 [DBUG] Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository Reading data from file '"/root/.aspnet/DataProtection-Keys/key-9af3f1b2-4ee6-481f-9845-5362155b46bb.xml"'.
+2020-11-30 17:31:21.088 +00:00 [DBUG] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager Found key {9af3f1b2-4ee6-481f-9845-5362155b46bb}.
+2020-11-30 17:31:21.100 +00:00 [DBUG] Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver Considering key {9af3f1b2-4ee6-481f-9845-5362155b46bb} with expiration date 2021-02-28 17:31:21Z as default key.
+2020-11-30 17:31:21.109 +00:00 [DBUG] Microsoft.AspNetCore.DataProtection.TypeForwardingActivator Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.10.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+2020-11-30 17:31:21.119 +00:00 [DBUG] Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ManagedAuthenticatedEncryptorFactory Using managed symmetric algorithm '"System.Security.Cryptography.Aes"'.
+2020-11-30 17:31:21.119 +00:00 [DBUG] Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ManagedAuthenticatedEncryptorFactory Using managed keyed hash algorithm '"System.Security.Cryptography.HMACSHA256"'.
+2020-11-30 17:31:21.127 +00:00 [DBUG] Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider Using key {9af3f1b2-4ee6-481f-9845-5362155b46bb} as the default key.
+2020-11-30 17:31:21.128 +00:00 [DBUG] Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService Key ring with default key {9af3f1b2-4ee6-481f-9845-5362155b46bb} was loaded during application startup.
+2020-11-30 17:31:22.183 +00:00 [DBUG] Microsoft.EntityFrameworkCore.Infrastructure An 'IServiceProvider' was created for internal use by Entity Framework.
+2020-11-30 17:31:22.938 +00:00 [WARN] Microsoft.EntityFrameworkCore.Model.Validation Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data, this mode should only be enabled during development.
+2020-11-30 17:31:22.991 +00:00 [INFO] Microsoft.EntityFrameworkCore.Infrastructure Entity Framework Core "3.1.9" initialized '"PostgreSQLCrudDbContext"' using provider '"Devart.Data.PostgreSql.Entity.EFCore"' with options: "SensitiveDataLoggingEnabled "
+2020-11-30 17:31:23.022 +00:00 [DBUG] Microsoft.EntityFrameworkCore.Migrations Migrating using database '"FiscalPrime"' on server '"192.168.0.135"'.
+2020-11-30 17:31:23.053 +00:00 [DBUG] Microsoft.EntityFrameworkCore.Database.Command Creating DbCommand for '"ExecuteScalar"'.
+2020-11-30 17:31:23.074 +00:00 [DBUG] Microsoft.EntityFrameworkCore.Database.Command Created DbCommand for '"ExecuteScalar"' (6ms).
+2020-11-30 17:31:23.091 +00:00 [DBUG] Microsoft.EntityFrameworkCore.Database.Connection Opening connection to database '"FiscalPrime"' on server '"192.168.0.135"'.
+2020-11-30 17:31:23.094 +00:00 [DBUG] Microsoft.EntityFrameworkCore.Database.Connection Opened connection to database '"FiscalPrime"' on server '"192.168.0.135"'.
+2020-11-30 17:31:23.110 +00:00 [DBUG] Microsoft.EntityFrameworkCore.Database.Command Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""select count(*)
+  from information_schema.tables
+ where (table_schema = current_schema() AND table_name = '__EFMigrationsHistory')"
+2020-11-30 17:31:23.235 +00:00 [INFO] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand ("131"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""select count(*)
+  from information_schema.tables
+ where (table_schema = current_schema() AND table_name = '__EFMigrationsHistory')"
+2020-11-30 17:31:23.242 +00:00 [DBUG] Microsoft.EntityFrameworkCore.Database.Connection Closing connection to database '"FiscalPrime"' on server '"192.168.0.135"'.
+2020-11-30 17:31:23.248 +00:00 [DBUG] Microsoft.EntityFrameworkCore.Database.Connection Closed connection to database '"FiscalPrime"' on server '"192.168.0.135"'.
+2020-11-30 17:31:23.255 +00:00 [DBUG] Microsoft.EntityFrameworkCore.Database.Command Creating DbCommand for '"ExecuteScalar"'.
+2020-11-30 17:31:23.255 +00:00 [DBUG] Microsoft.EntityFrameworkCore.Database.Command Created DbCommand for '"ExecuteScalar"' (0ms).
+2020-11-30 17:31:23.255 +00:00 [DBUG] Microsoft.EntityFrameworkCore.Database.Connection Opening connection to database '"FiscalPrime"' on server '"192.168.0.135"'.
+2020-11-30 17:31:23.255 +00:00 [DBUG] Microsoft.EntityFrameworkCore.Database.Connection Opened connection to database '"FiscalPrime"' on server '"192.168.0.135"'.
+2020-11-30 17:31:23.255 +00:00 [DBUG] Microsoft.EntityFrameworkCore.Database.Command Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""select count(*)
+  from information_schema.tables
+ where (table_schema = current_schema() AND table_name = '__EFMigrationsHistory')"
+2020-11-30 17:31:23.264 +00:00 [INFO] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand ("9"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""select count(*)
+  from information_schema.tables
+ where (table_schema = current_schema() AND table_name = '__EFMigrationsHistory')"
+2020-11-30 17:31:23.264 +00:00 [DBUG] Microsoft.EntityFrameworkCore.Database.Connection Closing connection to database '"FiscalPrime"' on server '"192.168.0.135"'.
+2020-11-30 17:31:23.264 +00:00 [DBUG] Microsoft.EntityFrameworkCore.Database.Connection Closed connection to database '"FiscalPrime"' on server '"192.168.0.135"'.
+2020-11-30 17:31:23.320 +00:00 [DBUG] Microsoft.EntityFrameworkCore.Database.Command Creating DbCommand for '"ExecuteReader"'.
+2020-11-30 17:31:23.320 +00:00 [DBUG] Microsoft.EntityFrameworkCore.Database.Command Created DbCommand for '"ExecuteReader"' (0ms).
+2020-11-30 17:31:23.320 +00:00 [DBUG] Microsoft.EntityFrameworkCore.Database.Connection Opening connection to database '"FiscalPrime"' on server '"192.168.0.135"'.
+2020-11-30 17:31:23.320 +00:00 [DBUG] Microsoft.EntityFrameworkCore.Database.Connection Opened connection to database '"FiscalPrime"' on server '"192.168.0.135"'.
+2020-11-30 17:31:23.321 +00:00 [DBUG] Microsoft.EntityFrameworkCore.Database.Command Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"MigrationId\", \"ProductVersion\"
+FROM \"__EFMigrationsHistory\"
+ORDER BY \"MigrationId\";"
+2020-11-30 17:31:23.335 +00:00 [INFO] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand ("15"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"MigrationId\", \"ProductVersion\"
+FROM \"__EFMigrationsHistory\"
+ORDER BY \"MigrationId\";"
+2020-11-30 17:31:23.340 +00:00 [DBUG] Microsoft.EntityFrameworkCore.Database.Command A data reader was disposed.
+2020-11-30 17:31:23.341 +00:00 [DBUG] Microsoft.EntityFrameworkCore.Database.Connection Closing connection to database '"FiscalPrime"' on server '"192.168.0.135"'.
+2020-11-30 17:31:23.341 +00:00 [DBUG] Microsoft.EntityFrameworkCore.Database.Connection Closed connection to database '"FiscalPrime"' on server '"192.168.0.135"'.
+2020-11-30 17:31:23.359 +00:00 [INFO] Microsoft.EntityFrameworkCore.Migrations No migrations were applied. The database is already up to date.
+2020-11-30 17:31:23.360 +00:00 [DBUG] Microsoft.EntityFrameworkCore.Infrastructure '"PostgreSQLCrudDbContext"' disposed.
+2020-11-30 17:31:23.658 +00:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer Failed to locate the development https certificate at 'null'.
+2020-11-30 17:31:23.672 +00:00 [INFO] Microsoft.Hosting.Lifetime Now listening on: "http://[::]:80"
+2020-11-30 17:31:23.672 +00:00 [DBUG] Microsoft.AspNetCore.Hosting.Diagnostics Loaded hosting startup assembly "FiscalPrime.Backend.API"
+2020-11-30 17:31:23.673 +00:00 [INFO] Microsoft.Hosting.Lifetime Application started. Press Ctrl+C to shut down.
+2020-11-30 17:31:23.673 +00:00 [INFO] Microsoft.Hosting.Lifetime Hosting environment: "Development"
+2020-11-30 17:31:23.673 +00:00 [INFO] Microsoft.Hosting.Lifetime Content root path: "/app"
+2020-11-30 17:31:23.673 +00:00 [DBUG] Microsoft.Extensions.Hosting.Internal.Host Hosting started
+2020-11-30 17:31:26.589 +00:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel Connection id ""0HM4LAN1VQIID"" accepted.
+2020-11-30 17:31:26.612 +00:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel Connection id ""0HM4LAN1VQIID"" started.
+2020-11-30 17:31:26.620 +00:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel Connection id ""0HM4LAN1VQIIE"" accepted.
+2020-11-30 17:31:26.621 +00:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel Connection id ""0HM4LAN1VQIIE"" started.
+2020-11-30 17:31:26.652 +00:00 [INFO] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:32774/swagger/index.html  
+2020-11-30 17:31:26.657 +00:00 [DBUG] Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware Wildcard detected, all requests with hosts will be allowed.
+2020-11-30 17:31:26.666 +00:00 [DBUG] Tnf.AspNetCore.Localization.TnfUserRequestCultureProvider TnfSession.UserId == null
+2020-11-30 17:31:26.725 +00:00 [DBUG] Microsoft.AspNetCore.Routing.Matching.DfaMatcher No candidates found for the request path '"/swagger/index.html"'
+2020-11-30 17:31:26.726 +00:00 [DBUG] Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware Request did not match any endpoints
+2020-11-30 17:31:26.824 +00:00 [DBUG] Microsoft.AspNetCore.ResponseCompression.ResponseCompressionProvider The response will be compressed with '"br"'.
+2020-11-30 17:31:26.852 +00:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel Connection id ""0HM4LAN1VQIID"" completed keep alive response.
+2020-11-30 17:31:26.855 +00:00 [INFO] Microsoft.AspNetCore.Hosting.Diagnostics Request finished in 205.366ms 200 text/html;charset=utf-8
+2020-11-30 17:31:26.886 +00:00 [INFO] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:32774/swagger/swagger-ui-bundle.js  
+2020-11-30 17:31:26.951 +00:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel Connection id ""0HM4LAN1VQIIF"" accepted.
+2020-11-30 17:31:26.951 +00:00 [DBUG] Tnf.AspNetCore.Localization.TnfUserRequestCultureProvider TnfSession.UserId == null
+2020-11-30 17:31:26.952 +00:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel Connection id ""0HM4LAN1VQIIF"" started.
+2020-11-30 17:31:26.952 +00:00 [INFO] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:32774/swagger/swagger-ui-standalone-preset.js  
+2020-11-30 17:31:26.952 +00:00 [DBUG] Microsoft.AspNetCore.Routing.Matching.DfaMatcher No candidates found for the request path '"/swagger/swagger-ui-bundle.js"'
+2020-11-30 17:31:26.952 +00:00 [DBUG] Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware Request did not match any endpoints
+2020-11-30 17:31:26.960 +00:00 [DBUG] Tnf.AspNetCore.Localization.TnfUserRequestCultureProvider TnfSession.UserId == null
+2020-11-30 17:31:26.960 +00:00 [DBUG] Microsoft.AspNetCore.Routing.Matching.DfaMatcher No candidates found for the request path '"/swagger/swagger-ui-standalone-preset.js"'
+2020-11-30 17:31:26.961 +00:00 [DBUG] Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware Request did not match any endpoints
+2020-11-30 17:31:26.971 +00:00 [INFO] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/1.1 GET http://localhost:32774/swagger/swagger-ui.css  
+2020-11-30 17:31:26.971 +00:00 [DBUG] Tnf.AspNetCore.Localization.TnfUserRequestCultureProvider TnfSession.UserId == null
+2020-11-30 17:31:26.972 +00:00 [DBUG] Microsoft.AspNetCore.Routing.Matching.DfaMatcher No candidates found for the request path '"/swagger/swagger-ui.css"'
+2020-11-30 17:31:26.972 +00:00 [DBUG] Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware Request did not match any endpoints
+2020-11-30 17:31:26.975 +00:00 [DBUG] Microsoft.AspNetCore.ResponseCompression.ResponseCompressionProvider The response will be compressed with '"br"'.
+2020-11-30 17:31:26.977 +00:00 [DBUG] Microsoft.AspNetCore.ResponseCompression.ResponseCompressionProvider The response will be compressed with '"br"'.
+2020-11-30 17:31:26.977 +00:00 [DBUG] Microsoft.AspNetCore.ResponseCompression.ResponseCompressionProvider The response will be compressed with '"br"'.
+2020-11-30 17:31:26.992 +00:00 [INFO] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'
+2020-11-30 17:31:26.993 +00:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel Connection id ""0HM4LAN1VQIID"" completed keep alive response.
+2020-11-30 17:31:27.029 +00:00 [INFO] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"'
+2020-11-30 17:31:26.995 +00:00 [INFO] Microsoft.AspNetCore.Hosting.Diagnostics Request finished in 23.2797ms 200 text/css
+2020-11-30 17:31:27.030 +00:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel Connection id ""0HM4LAN1VQIIF"" completed keep alive response.
+2020-11-30 17:31:27.032 +00:00 [INFO] Microsoft.AspNetCore.Hosting.Diagnostics Request finished in 79.7434ms 200 application/javascript
+2020-11-30 17:31:27.065 +00:00 [INFO] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"'
+2020-11-30 17:31:27.068 +00:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel Connection id ""0HM4LAN1VQIIE"" completed keep alive response.
+2020-11-30 17:31:27.069 +00:00 [INFO] Microsoft.AspNetCore.Hosting.Diagnostics Request finished in 185.5855ms 200 application/javascript
+2020-11-30 17:31:27.289 +00:00 [INFO] Microsoft.AspNetCore.Hosting.Diagnostics Request s2020-11-30 18:15:56.474 +00:00 [DBUG] Microsoft.Extensions.Hosting.Internal.Host Hosting starting
+2020-11-30 18:15:56.529 +00:00 [WARN] Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository Storing keys in a directory '"/root/.aspnet/DataProtection-Keys"' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+2020-11-30 18:15:56.529 +00:00 [INFO] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager User profile is available. Using '"/root/.aspnet/DataProtection-Keys"' as key repository; keys will not be encrypted at rest.
+2020-11-30 18:15:56.596 +00:00 [DBUG] Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository Reading data from file '"/root/.aspnet/DataProtection-Keys/key-9af3f1b2-4ee6-481f-9845-5362155b46bb.xml"'.
+2020-11-30 18:15:56.604 +00:00 [DBUG] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager Found key {9af3f1b2-4ee6-481f-9845-5362155b46bb}.
+2020-11-30 18:15:56.618 +00:00 [DBUG] Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver Considering key {9af3f1b2-4ee6-481f-9845-5362155b46bb} with expiration date 2021-02-28 17:31:21Z as default key.
+2020-11-30 18:15:56.627 +00:00 [DBUG] Microsoft.AspNetCore.DataProtection.TypeForwardingActivator Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.10.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+2020-11-30 18:15:56.637 +00:00 [DBUG] Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ManagedAuthenticatedEncryptorFactory Using managed symmetric algorithm '"System.Security.Cryptography.Aes"'.
+2020-11-30 18:15:56.637 +00:00 [DBUG] Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ManagedAuthenticatedEncryptorFactory Using managed keyed hash algorithm '"System.Security.Cryptography.HMACSHA256"'.
+2020-11-30 18:15:56.645 +00:00 [DBUG] Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider Using key {9af3f1b2-4ee6-481f-9845-5362155b46bb} as the default key.
+2020-11-30 18:15:56.646 +00:00 [DBUG] Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService Key ring with default key {9af3f1b2-4ee6-481f-9845-5362155b46bb} was loaded during application startup.
+2020-11-30 18:15:57.195 +00:00 [DBUG] Microsoft.EntityFrameworkCore.Infrastructure An 'IServiceProvider' was created for internal use by Entity Framework.
+2020-11-30 18:15:57.648 +00:00 [WARN] Microsoft.EntityFrameworkCore.Model.Validation Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data, this mode should only be enabled during development.
+2020-11-30 18:15:57.690 +00:00 [INFO] Microsoft.EntityFrameworkCore.Infrastructure Entity Framework Core "3.1.9" initialized '"PostgreSQLCrudDbContext"' using provider '"Devart.Data.PostgreSql.Entity.EFCore"' with options: "SensitiveDataLoggingEnabled "
+2020-11-30 18:15:57.711 +00:00 [DBUG] Microsoft.EntityFrameworkCore.Migrations Migrating using database '"FiscalPrime"' on server '"192.168.0.135"'.
+2020-11-30 18:15:57.722 +00:00 [DBUG] Microsoft.EntityFrameworkCore.Database.Command Creating DbCommand for '"ExecuteScalar"'.
+2020-11-30 18:15:57.731 +00:00 [DBUG] Microsoft.EntityFrameworkCore.Database.Command Created DbCommand for '"ExecuteScalar"' (4ms).
+2020-11-30 18:15:57.737 +00:00 [DBUG] Microsoft.EntityFrameworkCore.Database.Connection Opening connection to database '"FiscalPrime"' on server '"192.168.0.135"'.
+2020-11-30 18:15:57.739 +00:00 [DBUG] Microsoft.EntityFrameworkCore.Database.Connection Opened connection to database '"FiscalPrime"' on server '"192.168.0.135"'.
+2020-11-30 18:15:57.747 +00:00 [DBUG] Microsoft.EntityFrameworkCore.Database.Command Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""select count(*)
+  from information_schema.tables
+ where (table_schema = current_schema() AND table_name = '__EFMigrationsHistory')"
+2020-11-30 18:15:57.800 +00:00 [INFO] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand ("54"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""select count(*)
+  from information_schema.tables
+ where (table_schema = current_schema() AND table_name = '__EFMigrationsHistory')"
+2020-11-30 18:15:57.804 +00:00 [DBUG] Microsoft.EntityFrameworkCore.Database.Connection Closing connection to database '"FiscalPrime"' on server '"192.168.0.135"'.
+2020-11-30 18:15:57.809 +00:00 [DBUG] Microsoft.EntityFrameworkCore.Database.Connection Closed connection to database '"FiscalPrime"' on server '"192.168.0.135"'.
+2020-11-30 18:15:57.812 +00:00 [DBUG] Microsoft.EntityFrameworkCore.Database.Command Creating DbCommand for '"ExecuteScalar"'.
+2020-11-30 18:15:57.812 +00:00 [DBUG] Microsoft.EntityFrameworkCore.Database.Command Created DbCommand for '"ExecuteScalar"' (0ms).
+2020-11-30 18:15:57.813 +00:00 [DBUG] Microsoft.EntityFrameworkCore.Database.Connection Opening connection to database '"FiscalPrime"' on server '"192.168.0.135"'.
+2020-11-30 18:15:57.813 +00:00 [DBUG] Microsoft.EntityFrameworkCore.Database.Connection Opened connection to database '"FiscalPrime"' on server '"192.168.0.135"'.
+2020-11-30 18:15:57.813 +00:00 [DBUG] Microsoft.EntityFrameworkCore.Database.Command Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""select count(*)
+  from information_schema.tables
+ where (table_schema = current_schema() AND table_name = '__EFMigrationsHistory')"
+2020-11-30 18:15:57.818 +00:00 [INFO] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""select count(*)
+  from information_schema.tables
+ where (table_schema = current_schema() AND table_name = '__EFMigrationsHistory')"
+2020-11-30 18:15:57.819 +00:00 [DBUG] Microsoft.EntityFrameworkCore.Database.Connection Closing connection to database '"FiscalPrime"' on server '"192.168.0.135"'.
+2020-11-30 18:15:57.820 +00:00 [DBUG] Microsoft.EntityFrameworkCore.Database.Connection Closed connection to database '"FiscalPrime"' on server '"192.168.0.135"'.
+2020-11-30 18:15:57.844 +00:00 [DBUG] Microsoft.EntityFrameworkCore.Database.Command Creating DbCommand for '"ExecuteReader"'.
+2020-11-30 18:15:57.844 +00:00 [DBUG] Microsoft.EntityFrameworkCore.Database.Command Created DbCommand for '"ExecuteReader"' (0ms).
+2020-11-30 18:15:57.844 +00:00 [DBUG] Microsoft.EntityFrameworkCore.Database.Connection Opening connection to database '"FiscalPrime"' on server '"192.168.0.135"'.
+2020-11-30 18:15:57.844 +00:00 [DBUG] Microsoft.EntityFrameworkCore.Database.Connection Opened connection to database '"FiscalPrime"' on server '"192.168.0.135"'.
+2020-11-30 18:15:57.845 +00:00 [DBUG] Microsoft.EntityFrameworkCore.Database.Command Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"MigrationId\", \"ProductVersion\"
+FROM \"__EFMigrationsHistory\"
+ORDER BY \"MigrationId\";"
+2020-11-30 18:15:57.851 +00:00 [INFO] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand ("6"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"MigrationId\", \"ProductVersion\"
+FROM \"__EFMigrationsHistory\"
+ORDER BY \"MigrationId\";"
+2020-11-30 18:15:57.855 +00:00 [DBUG] Microsoft.EntityFrameworkCore.Database.Command A data reader was disposed.
+2020-11-30 18:15:57.855 +00:00 [DBUG] Microsoft.EntityFrameworkCore.Database.Connection Closing connection to database '"FiscalPrime"' on server '"192.168.0.135"'.
+2020-11-30 18:15:57.855 +00:00 [DBUG] Microsoft.EntityFrameworkCore.Database.Connection Closed connection to database '"FiscalPrime"' on server '"192.168.0.135"'.
+2020-11-30 18:15:57.868 +00:00 [INFO] Microsoft.EntityFrameworkCore.Migrations No migrations were applied. The database is already up to date.
+2020-11-30 18:15:57.869 +00:00 [DBU

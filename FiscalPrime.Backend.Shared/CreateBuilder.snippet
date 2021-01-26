@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippet Format="1.0.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <Header>
+    <Title>Create Builder</Title>
+    <Author>Eduardo Oliveira</Author>
+    <Shortcut>createbuilderctor</Shortcut>
+    <Description>Criação dos Metodos do Builder no Construtor do Dominio</Description>
+    <SnippetTypes>
+      <SnippetType>SurroundsWith</SnippetType>
+      <SnippetType>Expansion</SnippetType>
+    </SnippetTypes>
+  </Header>
+  <Snippet>
+    <Declarations>
+      <Literal>
+        <ID>classe</ID>
+        <Default>value</Default>
+      </Literal>
+    </Declarations>
+    <Code Language="CSharp">
+      <![CDATA[
+        public static Builder Create(INotificationHandler handler)
+             => new Builder(handler);
+
+        public static Builder Create(INotificationHandler handler, $classe$ instance)
+             => new Builder(handler, instance);
+             ]]>
+    </Code>
+  </Snippet>
+</CodeSnippet>

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="08/25/2020 20:28:07" ReportInfo.Modified="08/27/2020 11:02:56" ReportInfo.CreatorVersion="2020.3.0.0">
+  <Dictionary>
+    <BusinessObjectDataSource Name="CFOPxUF" ReferenceName="CFOPxUF" DataType="null" Enabled="true">
+      <Column Name="Sigla" DataType="System.String"/>
+      <Column Name="Nome" DataType="System.String"/>
+      <BusinessObjectDataSource Name="Cfops" DataType="null" Enabled="true">
+        <Column Name="SiglaCFOP" DataType="System.String"/>
+        <Column Name="Valor1" DataType="System.Decimal"/>
+        <Column Name="Valor2" DataType="System.Decimal"/>
+      </BusinessObjectDataSource>
+    </BusinessObjectDataSource>
+    <Total Name="TotalVal1" Expression="[CFOPxUF.Cfops.Valor1]" Evaluator="Data2" PrintOn="GroupFooter2"/>
+    <Total Name="TotalVal2" Expression="[CFOPxUF.Cfops.Valor2]" Evaluator="Data2" PrintOn="GroupFooter2"/>
+    <Total Name="TotalGeral" Expression="[CFOPxUF.Cfops.Valor1] + [CFOPxUF.Cfops.Valor2]" Evaluator="Data2" PrintOn="GroupFooter2"/>
+  </Dictionary>
+  <ReportPage Name="Page1" Landscape="true" PaperWidth="297" PaperHeight="210" RawPaperSize="9" Watermark.Font="Arial, 60pt">
+    <ReportTitleBand Name="ReportTitle1" Width="1047.06" Height="37.8">
+      <TextObject Name="Text7" Width="1048.95" Height="18.9" Text="Relatório Teste Spike" HorzAlign="Center" Font="Arial, 14pt"/>
+      <LineObject Name="Line1" Top="28.35" Width="1039.5"/>
+    </ReportTitleBand>
+    <PageHeaderBand Name="PageHeader1" Top="39.58" Width="1047.06" Height="18.9">
+      <TextObject Name="Text9" Left="831.6" Width="207.9" Height="18.9" Text="Data: [Date]" Format="Custom" Format.Format="dd/MM/yyyy hh:mm:ss" HorzAlign="Right" Font="Arial, 8pt"/>
+    </PageHeaderBand>
+    <GroupHeaderBand Name="GroupHeader1" Top="60.26" Width="1047.06" Height="47.25" Condition="[CFOPxUF.Sigla]">
+      <TextObject Name="Text10" Width="387.45" Height="18.9" Text="[CFOPxUF.Sigla] - [CFOPxUF.Nome]" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="Text1" Left="9.45" Top="25.35" Width="94.5" Height="18.9" Text="CFOP" Font="Arial, 9pt, style=Bold"/>
+      <TextObject Name="Text2" Left="264.6" Top="28.35" Width="94.5" Height="18.9" Text="1º Valor" Font="Arial, 9pt, style=Bold"/>
+      <TextObject Name="Text3" Left="387.45" Top="28.35" Width="94.5" Height="18.9" Text="2º Valor" Font="Arial, 9pt, style=Bold"/>
+      <LineObject Name="Line2" Top="18.9" Width="1039.5"/>
+      <GroupHeaderBand Name="GroupHeader2" Top="109.28" Width="1047.06" CanShrink="true" Condition="[CFOPxUF.Cfops.SiglaCFOP]">
+        <DataBand Name="Data1" Top="111.06" Width="1047.06" CanShrink="true" DataSource="CFOPxUF">
+          <DataBand Name="Data2" Top="112.84" Width="1047.06" Height="18.9" DataSource="Cfops">
+            <TextObject Name="Text13" Left="387.45" Width="94.5" Height="18.9" Text="[CFOPxUF.Cfops.Valor2]" Format="Currency" Format.UseLocale="true" Format.DecimalDigits="2" HorzAlign="Right" WordWrap="false" Font="Arial, 9pt" Trimming="EllipsisCharacter"/>
+            <TextObject Name="Text12" Left="264.6" Width="94.5" Height="18.9" Text="[CFOPxUF.Cfops.Valor1]" Format="Currency" Format.UseLocale="true" Format.DecimalDigits="2" HorzAlign="Right" WordWrap="false" Font="Arial, 9pt" Trimming="EllipsisCharacter"/>
+            <TextObject Name="Text11" Left="9.45" Width="94.5" Height="18.9" Text="[CFOPxUF.Cfops.SiglaCFOP]" Format="Number" Format.UseLocale="true" Format.DecimalDigits="0" Font="Arial, 9pt"/>
+          </DataBand>
+        </DataBand>
+        <GroupFooterBand Name="GroupFooter2" Top="133.52" Width="1047.06" Height="18.9">
+          <TextObject Name="Text14" Left="264.6" Width="94.5" Height="18.9" Text="[TotalVal1]" HorzAlign="Right" Font="Arial, 9pt, style=Bold"/>
+          <TextObject Name="Text17" Left="538.65" Width="94.5" Height="18.9" Text="[TotalGeral]" Font="Arial, 10pt, style=Bold"/>
+          <TextObject Name="Text16" Left="9.45" Width="94.5" Height="18.9" Text="Totais" Font="Arial, 10pt, style=Bold"/>
+          <TextObject Name="Text15" Left="387.45" Width="94.5" Height="18.9" Text="[TotalVal2]" HorzAlign="Right" Font="Arial, 9pt, style=Bold"/>
+          <LineObject Name="Line4" Width="1039.5"/>
+        </GroupFooterBand>
+      </GroupHeaderBand>
+      <GroupFooterBand Name="GroupFooter1" Top="154.19" Width="1047.06" CanShrink="true"/>
+    </GroupHeaderBand>
+    <PageFooterBand Name="PageFooter1" Top="155.97" Width="1047.06" Height="18.9">
+      <TextObject Name="Text8" Left="945" Width="94.5" Height="18.9" Text="Página: [Page]" HorzAlign="Center" Font="Arial, 8pt"/>
+      <LineObject Name="Line3" Width="1039.5"/>
+    </PageFooterBand>
+  </ReportPage>
+</Report>

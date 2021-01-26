@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Localization\SourceFiles\FiscalPrime-en.json" />
+    <None Remove="Localization\SourceFiles\FiscalPrime-pt-BR.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Localization\SourceFiles\FiscalPrime-en.json" />
+    <EmbeddedResource Include="Localization\SourceFiles\FiscalPrime-pt-BR.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Tnf.Domain" Version="3.2.0.31002" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FiscalPrime.Backend.DTO\FiscalPrime.Backend.DTO.csproj" />
+    <ProjectReference Include="..\FiscalPrime.Backend.Shared\FiscalPrime.Backend.Shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Entities\DominioExterno\Specifications\" />
+  </ItemGroup>
+
+</Project>
