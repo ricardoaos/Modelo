@@ -11,3 +11,16 @@ C:\Users\thiago.arnoni\Desktop\Estudos\TNF\FiscalPrime_backend\FiscalPrime.Backe
 C:\Users\thiago.arnoni\Desktop\Estudos\TNF\FiscalPrime_backend\FiscalPrime.Backend\FiscalPrime.Backend.Reports\obj\Debug\netstandard2.0\FiscalPrime.Backend.Reports.csproj.CopyComplete
 C:\Users\thiago.arnoni\Desktop\Estudos\TNF\FiscalPrime_backend\FiscalPrime.Backend\FiscalPrime.Backend.Reports\obj\Debug\netstandard2.0\FiscalPrime.Backend.Reports.dll
 C:\Users\thiago.arnoni\Desktop\Estudos\TNF\FiscalPrime_backend\FiscalPrime.Backend\FiscalPrime.Backend.Reports\obj\Debug\netstandard2.0\FiscalPrime.Backend.Reports.pdb
+C:\Development\GitHub\Modelo\FiscalPrime.Backend.Reports\bin\Debug\netstandard2.0\FiscalPrime.Backend.Reports.deps.json
+C:\Development\GitHub\Modelo\FiscalPrime.Backend.Reports\bin\Debug\netstandard2.0\FiscalPrime.Backend.Reports.dll
+C:\Development\GitHub\Modelo\FiscalPrime.Backend.Reports\bin\Debug\netstandard2.0\FiscalPrime.Backend.Reports.pdb
+C:\Development\GitHub\Modelo\FiscalPrime.Backend.Reports\bin\Debug\netstandard2.0\FiscalPrime.Backend.DTO.dll
+C:\Development\GitHub\Modelo\FiscalPrime.Backend.Reports\bin\Debug\netstandard2.0\FiscalPrime.Backend.Shared.dll
+C:\Development\GitHub\Modelo\FiscalPrime.Backend.Reports\bin\Debug\netstandard2.0\FiscalPrime.Backend.DTO.pdb
+C:\Development\GitHub\Modelo\FiscalPrime.Backend.Reports\bin\Debug\netstandard2.0\FiscalPrime.Backend.Shared.pdb
+C:\Development\GitHub\Modelo\FiscalPrime.Backend.Reports\obj\Debug\netstandard2.0\FiscalPrime.Backend.Reports.csprojAssemblyReference.cache
+C:\Development\GitHub\Modelo\FiscalPrime.Backend.Reports\obj\Debug\netstandard2.0\FiscalPrime.Backend.Reports.AssemblyInfoInputs.cache
+C:\Development\GitHub\Modelo\FiscalPrime.Backend.Reports\obj\Debug\netstandard2.0\FiscalPrime.Backend.Reports.AssemblyInfo.cs
+C:\Development\GitHub\Modelo\FiscalPrime.Backend.Reports\obj\Debug\netstandard2.0\FiscalPrime.Backend.Reports.csproj.CopyComplete
+C:\Development\GitHub\Modelo\FiscalPrime.Backend.Reports\obj\Debug\netstandard2.0\FiscalPrime.Backend.Reports.dll
+C:\Development\GitHub\Modelo\FiscalPrime.Backend.Reports\obj\Debug\netstandard2.0\FiscalPrime.Backend.Reports.pdb

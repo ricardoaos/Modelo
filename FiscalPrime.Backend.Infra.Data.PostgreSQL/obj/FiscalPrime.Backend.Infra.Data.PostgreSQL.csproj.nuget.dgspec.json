@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\thiago.arnoni\\Desktop\\Estudos\\TNF\\FiscalPrime_backend\\FiscalPrime.Backend\\FiscalPrime.Backend.Infra.Data.PostgreSQL\\FiscalPrime.Backend.Infra.Data.PostgreSQL.csproj": {}
+    "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.Infra.Data.PostgreSQL\\FiscalPrime.Backend.Infra.Data.PostgreSQL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\thiago.arnoni\\Desktop\\Estudos\\TNF\\FiscalPrime_backend\\FiscalPrime.Backend\\FiscalPrime.Backend.Domain\\FiscalPrime.Backend.Domain.csproj": {
+    "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.Domain\\FiscalPrime.Backend.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thiago.arnoni\\Desktop\\Estudos\\TNF\\FiscalPrime_backend\\FiscalPrime.Backend\\FiscalPrime.Backend.Domain\\FiscalPrime.Backend.Domain.csproj",
+        "projectUniqueName": "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.Domain\\FiscalPrime.Backend.Domain.csproj",
         "projectName": "FiscalPrime.Backend.Domain",
-        "projectPath": "C:\\Users\\thiago.arnoni\\Desktop\\Estudos\\TNF\\FiscalPrime_backend\\FiscalPrime.Backend\\FiscalPrime.Backend.Domain\\FiscalPrime.Backend.Domain.csproj",
+        "projectPath": "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.Domain\\FiscalPrime.Backend.Domain.csproj",
         "packagesPath": "C:\\Users\\thiago.arnoni\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thiago.arnoni\\Desktop\\Estudos\\TNF\\FiscalPrime_backend\\FiscalPrime.Backend\\FiscalPrime.Backend.Domain\\obj\\",
+        "outputPath": "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -32,11 +32,11 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\thiago.arnoni\\Desktop\\Estudos\\TNF\\FiscalPrime_backend\\FiscalPrime.Backend\\FiscalPrime.Backend.DTO\\FiscalPrime.Backend.DTO.csproj": {
-                "projectPath": "C:\\Users\\thiago.arnoni\\Desktop\\Estudos\\TNF\\FiscalPrime_backend\\FiscalPrime.Backend\\FiscalPrime.Backend.DTO\\FiscalPrime.Backend.DTO.csproj"
+              "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.DTO\\FiscalPrime.Backend.DTO.csproj": {
+                "projectPath": "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.DTO\\FiscalPrime.Backend.DTO.csproj"
               },
-              "C:\\Users\\thiago.arnoni\\Desktop\\Estudos\\TNF\\FiscalPrime_backend\\FiscalPrime.Backend\\FiscalPrime.Backend.Shared\\FiscalPrime.Backend.Shared.csproj": {
-                "projectPath": "C:\\Users\\thiago.arnoni\\Desktop\\Estudos\\TNF\\FiscalPrime_backend\\FiscalPrime.Backend\\FiscalPrime.Backend.Shared\\FiscalPrime.Backend.Shared.csproj"
+              "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.Shared\\FiscalPrime.Backend.Shared.csproj": {
+                "projectPath": "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.Shared\\FiscalPrime.Backend.Shared.csproj"
               }
             }
           }
@@ -75,14 +75,14 @@
         }
       }
     },
-    "C:\\Users\\thiago.arnoni\\Desktop\\Estudos\\TNF\\FiscalPrime_backend\\FiscalPrime.Backend\\FiscalPrime.Backend.DTO\\FiscalPrime.Backend.DTO.csproj": {
+    "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.DTO\\FiscalPrime.Backend.DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thiago.arnoni\\Desktop\\Estudos\\TNF\\FiscalPrime_backend\\FiscalPrime.Backend\\FiscalPrime.Backend.DTO\\FiscalPrime.Backend.DTO.csproj",
+        "projectUniqueName": "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.DTO\\FiscalPrime.Backend.DTO.csproj",
         "projectName": "FiscalPrime.Backend.DTO",
-        "projectPath": "C:\\Users\\thiago.arnoni\\Desktop\\Estudos\\TNF\\FiscalPrime_backend\\FiscalPrime.Backend\\FiscalPrime.Backend.DTO\\FiscalPrime.Backend.DTO.csproj",
+        "projectPath": "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.DTO\\FiscalPrime.Backend.DTO.csproj",
         "packagesPath": "C:\\Users\\thiago.arnoni\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thiago.arnoni\\Desktop\\Estudos\\TNF\\FiscalPrime_backend\\FiscalPrime.Backend\\FiscalPrime.Backend.DTO\\obj\\",
+        "outputPath": "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.DTO\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -103,8 +103,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\thiago.arnoni\\Desktop\\Estudos\\TNF\\FiscalPrime_backend\\FiscalPrime.Backend\\FiscalPrime.Backend.Shared\\FiscalPrime.Backend.Shared.csproj": {
-                "projectPath": "C:\\Users\\thiago.arnoni\\Desktop\\Estudos\\TNF\\FiscalPrime_backend\\FiscalPrime.Backend\\FiscalPrime.Backend.Shared\\FiscalPrime.Backend.Shared.csproj"
+              "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.Shared\\FiscalPrime.Backend.Shared.csproj": {
+                "projectPath": "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.Shared\\FiscalPrime.Backend.Shared.csproj"
               }
             }
           }
@@ -147,14 +147,14 @@
         }
       }
     },
-    "C:\\Users\\thiago.arnoni\\Desktop\\Estudos\\TNF\\FiscalPrime_backend\\FiscalPrime.Backend\\FiscalPrime.Backend.Infra.Data.PostgreSQL\\FiscalPrime.Backend.Infra.Data.PostgreSQL.csproj": {
+    "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.Infra.Data.PostgreSQL\\FiscalPrime.Backend.Infra.Data.PostgreSQL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thiago.arnoni\\Desktop\\Estudos\\TNF\\FiscalPrime_backend\\FiscalPrime.Backend\\FiscalPrime.Backend.Infra.Data.PostgreSQL\\FiscalPrime.Backend.Infra.Data.PostgreSQL.csproj",
+        "projectUniqueName": "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.Infra.Data.PostgreSQL\\FiscalPrime.Backend.Infra.Data.PostgreSQL.csproj",
         "projectName": "FiscalPrime.Backend.Infra.Data.PostgreSQL",
-        "projectPath": "C:\\Users\\thiago.arnoni\\Desktop\\Estudos\\TNF\\FiscalPrime_backend\\FiscalPrime.Backend\\FiscalPrime.Backend.Infra.Data.PostgreSQL\\FiscalPrime.Backend.Infra.Data.PostgreSQL.csproj",
+        "projectPath": "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.Infra.Data.PostgreSQL\\FiscalPrime.Backend.Infra.Data.PostgreSQL.csproj",
         "packagesPath": "C:\\Users\\thiago.arnoni\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thiago.arnoni\\Desktop\\Estudos\\TNF\\FiscalPrime_backend\\FiscalPrime.Backend\\FiscalPrime.Backend.Infra.Data.PostgreSQL\\obj\\",
+        "outputPath": "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.Infra.Data.PostgreSQL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -175,8 +175,8 @@
         "frameworks": {
           "netstandard2.1": {
             "projectReferences": {
-              "C:\\Users\\thiago.arnoni\\Desktop\\Estudos\\TNF\\FiscalPrime_backend\\FiscalPrime.Backend\\FiscalPrime.Backend.Infra.Data\\FiscalPrime.Backend.Infra.Data.csproj": {
-                "projectPath": "C:\\Users\\thiago.arnoni\\Desktop\\Estudos\\TNF\\FiscalPrime_backend\\FiscalPrime.Backend\\FiscalPrime.Backend.Infra.Data\\FiscalPrime.Backend.Infra.Data.csproj"
+              "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.Infra.Data\\FiscalPrime.Backend.Infra.Data.csproj": {
+                "projectPath": "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.Infra.Data\\FiscalPrime.Backend.Infra.Data.csproj"
               }
             }
           }
@@ -218,14 +218,14 @@
         }
       }
     },
-    "C:\\Users\\thiago.arnoni\\Desktop\\Estudos\\TNF\\FiscalPrime_backend\\FiscalPrime.Backend\\FiscalPrime.Backend.Infra.Data\\FiscalPrime.Backend.Infra.Data.csproj": {
+    "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.Infra.Data\\FiscalPrime.Backend.Infra.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thiago.arnoni\\Desktop\\Estudos\\TNF\\FiscalPrime_backend\\FiscalPrime.Backend\\FiscalPrime.Backend.Infra.Data\\FiscalPrime.Backend.Infra.Data.csproj",
+        "projectUniqueName": "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.Infra.Data\\FiscalPrime.Backend.Infra.Data.csproj",
         "projectName": "FiscalPrime.Backend.Infra.Data",
-        "projectPath": "C:\\Users\\thiago.arnoni\\Desktop\\Estudos\\TNF\\FiscalPrime_backend\\FiscalPrime.Backend\\FiscalPrime.Backend.Infra.Data\\FiscalPrime.Backend.Infra.Data.csproj",
+        "projectPath": "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.Infra.Data\\FiscalPrime.Backend.Infra.Data.csproj",
         "packagesPath": "C:\\Users\\thiago.arnoni\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thiago.arnoni\\Desktop\\Estudos\\TNF\\FiscalPrime_backend\\FiscalPrime.Backend\\FiscalPrime.Backend.Infra.Data\\obj\\",
+        "outputPath": "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.Infra.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -246,8 +246,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\thiago.arnoni\\Desktop\\Estudos\\TNF\\FiscalPrime_backend\\FiscalPrime.Backend\\FiscalPrime.Backend.Domain\\FiscalPrime.Backend.Domain.csproj": {
-                "projectPath": "C:\\Users\\thiago.arnoni\\Desktop\\Estudos\\TNF\\FiscalPrime_backend\\FiscalPrime.Backend\\FiscalPrime.Backend.Domain\\FiscalPrime.Backend.Domain.csproj"
+              "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.Domain\\FiscalPrime.Backend.Domain.csproj": {
+                "projectPath": "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.Domain\\FiscalPrime.Backend.Domain.csproj"
               }
             }
           }
@@ -302,14 +302,14 @@
         }
       }
     },
-    "C:\\Users\\thiago.arnoni\\Desktop\\Estudos\\TNF\\FiscalPrime_backend\\FiscalPrime.Backend\\FiscalPrime.Backend.Shared\\FiscalPrime.Backend.Shared.csproj": {
+    "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.Shared\\FiscalPrime.Backend.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thiago.arnoni\\Desktop\\Estudos\\TNF\\FiscalPrime_backend\\FiscalPrime.Backend\\FiscalPrime.Backend.Shared\\FiscalPrime.Backend.Shared.csproj",
+        "projectUniqueName": "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.Shared\\FiscalPrime.Backend.Shared.csproj",
         "projectName": "FiscalPrime.Backend.Shared",
-        "projectPath": "C:\\Users\\thiago.arnoni\\Desktop\\Estudos\\TNF\\FiscalPrime_backend\\FiscalPrime.Backend\\FiscalPrime.Backend.Shared\\FiscalPrime.Backend.Shared.csproj",
+        "projectPath": "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.Shared\\FiscalPrime.Backend.Shared.csproj",
         "packagesPath": "C:\\Users\\thiago.arnoni\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thiago.arnoni\\Desktop\\Estudos\\TNF\\FiscalPrime_backend\\FiscalPrime.Backend\\FiscalPrime.Backend.Shared\\obj\\",
+        "outputPath": "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FiscalPrime.Backend.API</name>
+    </assembly>
+    <members>
+        <member name="M:FiscalPrime.Backend.API.Controllers.DominioController.Get(System.String,System.String,FiscalPrime.Backend.Shared.Constants.Dominio,System.String)">
+            <summary>
+            Get By Id
+            </summary>
+            <returns>List</returns>
+        </member>
+        <member name="M:FiscalPrime.Backend.API.Controllers.DominioController.GetAll(System.String,FiscalPrime.Backend.Shared.Constants.Dominio,System.String)">
+            <summary>
+            Get all
+            </summary>
+            <returns>List</returns>
+        </member>
+        <member name="M:FiscalPrime.Backend.API.Controllers.EmpresaController.GetAll(FiscalPrime.Backend.DTO.Requests.RequestAll.EmpresaRequestAllDTO)">
+            <summary>
+            Get all
+            </summary>
+            <param name="requestDto">Request params</param>
+            <returns>List</returns>
+        </member>
+        <member name="M:FiscalPrime.Backend.API.Controllers.EmpresaController.Get(System.Int64,Tnf.Dto.RequestDto)">
+            <summary>
+            Get product
+            </summary>
+            <param name="id">Product id</param>
+            <param name="requestDto">Request params</param>
+            <returns>Product requested</returns>
+        </member>
+        <member name="M:FiscalPrime.Backend.API.Controllers.EmpresaController.Post(FiscalPrime.Backend.DTO.DTOs.EmpresaDTO)">
+            <summary>
+            Create a new product
+            </summary>
+            <param name="dto">Product to create</param>
+            <returns>Product created</returns>
+        </member>
+        <member name="M:FiscalPrime.Backend.API.Controllers.EmpresaController.Put(System.Int64,FiscalPrime.Backend.DTO.DTOs.EmpresaDTO)">
+            <summary>
+            Update a product
+            </summary>
+            <param name="id">Product id</param>
+            <param name="dto">Product content to update</param>
+            <returns>Updated product</returns>
+        </member>
+        <member name="M:FiscalPrime.Backend.API.Controllers.EmpresaController.Delete(System.Int64)">
+            <summary>
+            Delete a product
+            </summary>
+            <param name="id">Product id</param>
+        </member>
+        <member name="M:FiscalPrime.Backend.API.Controllers.RelatoriosController.Index(System.String,FiscalPrime.Backend.DTO.DTOs.Reports.Filters)">
+            <summary>
+            Método que busca o relatórios com os parametros informados
+            </summary>
+            <returns>Retorna view com o relatório</returns>
+        </member>
+    </members>
+</doc>

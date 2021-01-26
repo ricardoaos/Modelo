@@ -1,0 +1,211 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.Domain\\FiscalPrime.Backend.Domain.csproj": {}
+  },
+  "projects": {
+    "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.Domain\\FiscalPrime.Backend.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.Domain\\FiscalPrime.Backend.Domain.csproj",
+        "projectName": "FiscalPrime.Backend.Domain",
+        "projectPath": "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.Domain\\FiscalPrime.Backend.Domain.csproj",
+        "packagesPath": "C:\\Users\\thiago.arnoni\\.nuget\\packages\\",
+        "outputPath": "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\thiago.arnoni\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/tnf/api/v3/index.json": {},
+          "https://www.myget.org/F/tnfdev/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.DTO\\FiscalPrime.Backend.DTO.csproj": {
+                "projectPath": "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.DTO\\FiscalPrime.Backend.DTO.csproj"
+              },
+              "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.Shared\\FiscalPrime.Backend.Shared.csproj": {
+                "projectPath": "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.Shared\\FiscalPrime.Backend.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Tnf.Domain": {
+              "target": "Package",
+              "version": "[3.2.0.31002, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.DTO\\FiscalPrime.Backend.DTO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.DTO\\FiscalPrime.Backend.DTO.csproj",
+        "projectName": "FiscalPrime.Backend.DTO",
+        "projectPath": "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.DTO\\FiscalPrime.Backend.DTO.csproj",
+        "packagesPath": "C:\\Users\\thiago.arnoni\\.nuget\\packages\\",
+        "outputPath": "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.DTO\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\thiago.arnoni\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/tnf/api/v3/index.json": {},
+          "https://www.myget.org/F/tnfdev/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.Shared\\FiscalPrime.Backend.Shared.csproj": {
+                "projectPath": "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.Shared\\FiscalPrime.Backend.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "FastReport.OpenSource.Web": {
+              "target": "Package",
+              "version": "[2021.1.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Tnf.Dto": {
+              "target": "Package",
+              "version": "[3.2.0.31002, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.Shared\\FiscalPrime.Backend.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.Shared\\FiscalPrime.Backend.Shared.csproj",
+        "projectName": "FiscalPrime.Backend.Shared",
+        "projectPath": "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.Shared\\FiscalPrime.Backend.Shared.csproj",
+        "packagesPath": "C:\\Users\\thiago.arnoni\\.nuget\\packages\\",
+        "outputPath": "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\thiago.arnoni\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/tnf/api/v3/index.json": {},
+          "https://www.myget.org/F/tnfdev/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

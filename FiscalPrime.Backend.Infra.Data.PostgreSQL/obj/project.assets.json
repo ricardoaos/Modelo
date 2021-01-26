@@ -8798,11 +8798,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\thiago.arnoni\\Desktop\\Estudos\\TNF\\FiscalPrime_backend\\FiscalPrime.Backend\\FiscalPrime.Backend.Infra.Data.PostgreSQL\\FiscalPrime.Backend.Infra.Data.PostgreSQL.csproj",
+      "projectUniqueName": "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.Infra.Data.PostgreSQL\\FiscalPrime.Backend.Infra.Data.PostgreSQL.csproj",
       "projectName": "FiscalPrime.Backend.Infra.Data.PostgreSQL",
-      "projectPath": "C:\\Users\\thiago.arnoni\\Desktop\\Estudos\\TNF\\FiscalPrime_backend\\FiscalPrime.Backend\\FiscalPrime.Backend.Infra.Data.PostgreSQL\\FiscalPrime.Backend.Infra.Data.PostgreSQL.csproj",
+      "projectPath": "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.Infra.Data.PostgreSQL\\FiscalPrime.Backend.Infra.Data.PostgreSQL.csproj",
       "packagesPath": "C:\\Users\\thiago.arnoni\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\thiago.arnoni\\Desktop\\Estudos\\TNF\\FiscalPrime_backend\\FiscalPrime.Backend\\FiscalPrime.Backend.Infra.Data.PostgreSQL\\obj\\",
+      "outputPath": "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.Infra.Data.PostgreSQL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -8823,8 +8823,8 @@
       "frameworks": {
         "netstandard2.1": {
           "projectReferences": {
-            "C:\\Users\\thiago.arnoni\\Desktop\\Estudos\\TNF\\FiscalPrime_backend\\FiscalPrime.Backend\\FiscalPrime.Backend.Infra.Data\\FiscalPrime.Backend.Infra.Data.csproj": {
-              "projectPath": "C:\\Users\\thiago.arnoni\\Desktop\\Estudos\\TNF\\FiscalPrime_backend\\FiscalPrime.Backend\\FiscalPrime.Backend.Infra.Data\\FiscalPrime.Backend.Infra.Data.csproj"
+            "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.Infra.Data\\FiscalPrime.Backend.Infra.Data.csproj": {
+              "projectPath": "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.Infra.Data\\FiscalPrime.Backend.Infra.Data.csproj"
             }
           }
         }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\thiago.arnoni\\Desktop\\Estudos\\TNF\\FiscalPrime_backend\\FiscalPrime.Backend\\FiscalPrime.Backend.Shared\\FiscalPrime.Backend.Shared.csproj": {}
+    "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.Shared\\FiscalPrime.Backend.Shared.csproj": {}
   },
   "projects": {
-    "C:\\Users\\thiago.arnoni\\Desktop\\Estudos\\TNF\\FiscalPrime_backend\\FiscalPrime.Backend\\FiscalPrime.Backend.Shared\\FiscalPrime.Backend.Shared.csproj": {
+    "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.Shared\\FiscalPrime.Backend.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thiago.arnoni\\Desktop\\Estudos\\TNF\\FiscalPrime_backend\\FiscalPrime.Backend\\FiscalPrime.Backend.Shared\\FiscalPrime.Backend.Shared.csproj",
+        "projectUniqueName": "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.Shared\\FiscalPrime.Backend.Shared.csproj",
         "projectName": "FiscalPrime.Backend.Shared",
-        "projectPath": "C:\\Users\\thiago.arnoni\\Desktop\\Estudos\\TNF\\FiscalPrime_backend\\FiscalPrime.Backend\\FiscalPrime.Backend.Shared\\FiscalPrime.Backend.Shared.csproj",
+        "projectPath": "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.Shared\\FiscalPrime.Backend.Shared.csproj",
         "packagesPath": "C:\\Users\\thiago.arnoni\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thiago.arnoni\\Desktop\\Estudos\\TNF\\FiscalPrime_backend\\FiscalPrime.Backend\\FiscalPrime.Backend.Shared\\obj\\",
+        "outputPath": "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

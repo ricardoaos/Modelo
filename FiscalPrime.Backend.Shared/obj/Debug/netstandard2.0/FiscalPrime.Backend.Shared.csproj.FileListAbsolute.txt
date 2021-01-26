@@ -15,3 +15,11 @@ C:\Users\thiago.arnoni\Desktop\Estudos\TNF\FiscalPrime_backend\FiscalPrime.Backe
 C:\Users\thiago.arnoni\Desktop\Estudos\TNF\FiscalPrime_backend\FiscalPrime.Backend\FiscalPrime.Backend.Shared\obj\Debug\netstandard2.0\FiscalPrime.Backend.Shared.dll
 C:\Users\thiago.arnoni\Desktop\Estudos\TNF\FiscalPrime_backend\FiscalPrime.Backend\FiscalPrime.Backend.Shared\obj\Debug\netstandard2.0\FiscalPrime.Backend.Shared.pdb
 C:\Users\thiago.arnoni\Desktop\Estudos\TNF\FiscalPrime_backend\FiscalPrime.Backend\FiscalPrime.Backend.Shared\obj\Debug\netstandard2.0\FiscalPrime.Backend.Shared.csprojAssemblyReference.cache
+C:\Development\GitHub\Modelo\FiscalPrime.Backend.Shared\bin\Debug\netstandard2.0\FiscalPrime.Backend.Shared.deps.json
+C:\Development\GitHub\Modelo\FiscalPrime.Backend.Shared\bin\Debug\netstandard2.0\FiscalPrime.Backend.Shared.dll
+C:\Development\GitHub\Modelo\FiscalPrime.Backend.Shared\bin\Debug\netstandard2.0\FiscalPrime.Backend.Shared.pdb
+C:\Development\GitHub\Modelo\FiscalPrime.Backend.Shared\obj\Debug\netstandard2.0\FiscalPrime.Backend.Shared.csprojAssemblyReference.cache
+C:\Development\GitHub\Modelo\FiscalPrime.Backend.Shared\obj\Debug\netstandard2.0\FiscalPrime.Backend.Shared.AssemblyInfoInputs.cache
+C:\Development\GitHub\Modelo\FiscalPrime.Backend.Shared\obj\Debug\netstandard2.0\FiscalPrime.Backend.Shared.AssemblyInfo.cs
+C:\Development\GitHub\Modelo\FiscalPrime.Backend.Shared\obj\Debug\netstandard2.0\FiscalPrime.Backend.Shared.dll
+C:\Development\GitHub\Modelo\FiscalPrime.Backend.Shared\obj\Debug\netstandard2.0\FiscalPrime.Backend.Shared.pdb

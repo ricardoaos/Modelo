@@ -8473,11 +8473,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\thiago.arnoni\\Desktop\\Estudos\\TNF\\FiscalPrime_backend\\FiscalPrime.Backend\\FiscalPrime.Backend.Tests\\FiscalPrime.Backend.Tests.csproj",
+      "projectUniqueName": "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.Tests\\FiscalPrime.Backend.Tests.csproj",
       "projectName": "FiscalPrime.Backend.Tests",
-      "projectPath": "C:\\Users\\thiago.arnoni\\Desktop\\Estudos\\TNF\\FiscalPrime_backend\\FiscalPrime.Backend\\FiscalPrime.Backend.Tests\\FiscalPrime.Backend.Tests.csproj",
+      "projectPath": "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.Tests\\FiscalPrime.Backend.Tests.csproj",
       "packagesPath": "C:\\Users\\thiago.arnoni\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\thiago.arnoni\\Desktop\\Estudos\\TNF\\FiscalPrime_backend\\FiscalPrime.Backend\\FiscalPrime.Backend.Tests\\obj\\",
+      "outputPath": "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -8498,11 +8498,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\thiago.arnoni\\Desktop\\Estudos\\TNF\\FiscalPrime_backend\\FiscalPrime.Backend\\FiscalPrime.Backend.Domain\\FiscalPrime.Backend.Domain.csproj": {
-              "projectPath": "C:\\Users\\thiago.arnoni\\Desktop\\Estudos\\TNF\\FiscalPrime_backend\\FiscalPrime.Backend\\FiscalPrime.Backend.Domain\\FiscalPrime.Backend.Domain.csproj"
+            "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.Domain\\FiscalPrime.Backend.Domain.csproj": {
+              "projectPath": "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.Domain\\FiscalPrime.Backend.Domain.csproj"
             },
-            "C:\\Users\\thiago.arnoni\\Desktop\\Estudos\\TNF\\FiscalPrime_backend\\FiscalPrime.Backend\\FiscalPrime.Backend.Infra.Data\\FiscalPrime.Backend.Infra.Data.csproj": {
-              "projectPath": "C:\\Users\\thiago.arnoni\\Desktop\\Estudos\\TNF\\FiscalPrime_backend\\FiscalPrime.Backend\\FiscalPrime.Backend.Infra.Data\\FiscalPrime.Backend.Infra.Data.csproj"
+            "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.Infra.Data\\FiscalPrime.Backend.Infra.Data.csproj": {
+              "projectPath": "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.Infra.Data\\FiscalPrime.Backend.Infra.Data.csproj"
             }
           }
         }

@@ -2616,11 +2616,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\thiago.arnoni\\Desktop\\Estudos\\TNF\\FiscalPrime_backend\\FiscalPrime.Backend\\FiscalPrime.Backend.Http\\FiscalPrime.Backend.Http.csproj",
+      "projectUniqueName": "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.Http\\FiscalPrime.Backend.Http.csproj",
       "projectName": "FiscalPrime.Backend.Http",
-      "projectPath": "C:\\Users\\thiago.arnoni\\Desktop\\Estudos\\TNF\\FiscalPrime_backend\\FiscalPrime.Backend\\FiscalPrime.Backend.Http\\FiscalPrime.Backend.Http.csproj",
+      "projectPath": "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.Http\\FiscalPrime.Backend.Http.csproj",
       "packagesPath": "C:\\Users\\thiago.arnoni\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\thiago.arnoni\\Desktop\\Estudos\\TNF\\FiscalPrime_backend\\FiscalPrime.Backend\\FiscalPrime.Backend.Http\\obj\\",
+      "outputPath": "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.Http\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
