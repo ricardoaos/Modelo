@@ -8636,23 +8636,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\thiago.arnoni\\.nuget\\packages\\": {},
+    "C:\\Users\\ricardo.souto\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.HangFire\\FiscalPrime.Backend.HangFire.csproj",
+      "projectUniqueName": "C:\\Users\\ricardo.souto\\Source\\Repos\\Modelo\\FiscalPrime.Backend.HangFire\\FiscalPrime.Backend.HangFire.csproj",
       "projectName": "FiscalPrime.Backend.HangFire",
-      "projectPath": "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.HangFire\\FiscalPrime.Backend.HangFire.csproj",
-      "packagesPath": "C:\\Users\\thiago.arnoni\\.nuget\\packages\\",
-      "outputPath": "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.HangFire\\obj\\",
+      "projectPath": "C:\\Users\\ricardo.souto\\Source\\Repos\\Modelo\\FiscalPrime.Backend.HangFire\\FiscalPrime.Backend.HangFire.csproj",
+      "packagesPath": "C:\\Users\\ricardo.souto\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ricardo.souto\\Source\\Repos\\Modelo\\FiscalPrime.Backend.HangFire\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\thiago.arnoni\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ricardo.souto\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8666,21 +8666,22 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.Application\\FiscalPrime.Backend.Application.csproj": {
-              "projectPath": "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.Application\\FiscalPrime.Backend.Application.csproj"
+            "C:\\Users\\ricardo.souto\\Source\\Repos\\Modelo\\FiscalPrime.Backend.Application\\FiscalPrime.Backend.Application.csproj": {
+              "projectPath": "C:\\Users\\ricardo.souto\\Source\\Repos\\Modelo\\FiscalPrime.Backend.Application\\FiscalPrime.Backend.Application.csproj"
             },
-            "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.Domain\\FiscalPrime.Backend.Domain.csproj": {
-              "projectPath": "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.Domain\\FiscalPrime.Backend.Domain.csproj"
+            "C:\\Users\\ricardo.souto\\Source\\Repos\\Modelo\\FiscalPrime.Backend.Domain\\FiscalPrime.Backend.Domain.csproj": {
+              "projectPath": "C:\\Users\\ricardo.souto\\Source\\Repos\\Modelo\\FiscalPrime.Backend.Domain\\FiscalPrime.Backend.Domain.csproj"
             },
-            "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.Http\\FiscalPrime.Backend.Http.csproj": {
-              "projectPath": "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.Http\\FiscalPrime.Backend.Http.csproj"
+            "C:\\Users\\ricardo.souto\\Source\\Repos\\Modelo\\FiscalPrime.Backend.Http\\FiscalPrime.Backend.Http.csproj": {
+              "projectPath": "C:\\Users\\ricardo.souto\\Source\\Repos\\Modelo\\FiscalPrime.Backend.Http\\FiscalPrime.Backend.Http.csproj"
             },
-            "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.Infra.Data.PostgreSQL\\FiscalPrime.Backend.Infra.Data.PostgreSQL.csproj": {
-              "projectPath": "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.Infra.Data.PostgreSQL\\FiscalPrime.Backend.Infra.Data.PostgreSQL.csproj"
+            "C:\\Users\\ricardo.souto\\Source\\Repos\\Modelo\\FiscalPrime.Backend.Infra.Data.PostgreSQL\\FiscalPrime.Backend.Infra.Data.PostgreSQL.csproj": {
+              "projectPath": "C:\\Users\\ricardo.souto\\Source\\Repos\\Modelo\\FiscalPrime.Backend.Infra.Data.PostgreSQL\\FiscalPrime.Backend.Infra.Data.PostgreSQL.csproj"
             },
-            "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.Shared\\FiscalPrime.Backend.Shared.csproj": {
-              "projectPath": "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.Shared\\FiscalPrime.Backend.Shared.csproj"
+            "C:\\Users\\ricardo.souto\\Source\\Repos\\Modelo\\FiscalPrime.Backend.Shared\\FiscalPrime.Backend.Shared.csproj": {
+              "projectPath": "C:\\Users\\ricardo.souto\\Source\\Repos\\Modelo\\FiscalPrime.Backend.Shared\\FiscalPrime.Backend.Shared.csproj"
             }
           }
         }
@@ -8693,6 +8694,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Hangfire": {
             "target": "Package",
@@ -8737,7 +8739,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

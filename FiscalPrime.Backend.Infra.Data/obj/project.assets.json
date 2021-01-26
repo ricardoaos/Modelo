@@ -4005,23 +4005,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\thiago.arnoni\\.nuget\\packages\\": {},
+    "C:\\Users\\ricardo.souto\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.Infra.Data\\FiscalPrime.Backend.Infra.Data.csproj",
+      "projectUniqueName": "C:\\Users\\ricardo.souto\\Source\\Repos\\Modelo\\FiscalPrime.Backend.Infra.Data\\FiscalPrime.Backend.Infra.Data.csproj",
       "projectName": "FiscalPrime.Backend.Infra.Data",
-      "projectPath": "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.Infra.Data\\FiscalPrime.Backend.Infra.Data.csproj",
-      "packagesPath": "C:\\Users\\thiago.arnoni\\.nuget\\packages\\",
-      "outputPath": "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.Infra.Data\\obj\\",
+      "projectPath": "C:\\Users\\ricardo.souto\\Source\\Repos\\Modelo\\FiscalPrime.Backend.Infra.Data\\FiscalPrime.Backend.Infra.Data.csproj",
+      "packagesPath": "C:\\Users\\ricardo.souto\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ricardo.souto\\Source\\Repos\\Modelo\\FiscalPrime.Backend.Infra.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\thiago.arnoni\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ricardo.souto\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4035,9 +4035,10 @@
       },
       "frameworks": {
         "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
           "projectReferences": {
-            "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.Domain\\FiscalPrime.Backend.Domain.csproj": {
-              "projectPath": "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.Domain\\FiscalPrime.Backend.Domain.csproj"
+            "C:\\Users\\ricardo.souto\\Source\\Repos\\Modelo\\FiscalPrime.Backend.Domain\\FiscalPrime.Backend.Domain.csproj": {
+              "projectPath": "C:\\Users\\ricardo.souto\\Source\\Repos\\Modelo\\FiscalPrime.Backend.Domain\\FiscalPrime.Backend.Domain.csproj"
             }
           }
         }
@@ -4050,6 +4051,7 @@
     },
     "frameworks": {
       "netstandard2.0": {
+        "targetAlias": "netstandard2.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -4088,7 +4090,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

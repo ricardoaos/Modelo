@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.Http\\FiscalPrime.Backend.Http.csproj": {}
+    "C:\\Users\\ricardo.souto\\Source\\Repos\\Modelo\\FiscalPrime.Backend.Http\\FiscalPrime.Backend.Http.csproj": {}
   },
   "projects": {
-    "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.Http\\FiscalPrime.Backend.Http.csproj": {
+    "C:\\Users\\ricardo.souto\\Source\\Repos\\Modelo\\FiscalPrime.Backend.Http\\FiscalPrime.Backend.Http.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.Http\\FiscalPrime.Backend.Http.csproj",
+        "projectUniqueName": "C:\\Users\\ricardo.souto\\Source\\Repos\\Modelo\\FiscalPrime.Backend.Http\\FiscalPrime.Backend.Http.csproj",
         "projectName": "FiscalPrime.Backend.Http",
-        "projectPath": "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.Http\\FiscalPrime.Backend.Http.csproj",
-        "packagesPath": "C:\\Users\\thiago.arnoni\\.nuget\\packages\\",
-        "outputPath": "C:\\Development\\GitHub\\Modelo\\FiscalPrime.Backend.Http\\obj\\",
+        "projectPath": "C:\\Users\\ricardo.souto\\Source\\Repos\\Modelo\\FiscalPrime.Backend.Http\\FiscalPrime.Backend.Http.csproj",
+        "packagesPath": "C:\\Users\\ricardo.souto\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ricardo.souto\\Source\\Repos\\Modelo\\FiscalPrime.Backend.Http\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\thiago.arnoni\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ricardo.souto\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -31,6 +31,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -42,6 +43,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Tnf.AspNetCore.Security": {
               "target": "Package",
@@ -66,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
